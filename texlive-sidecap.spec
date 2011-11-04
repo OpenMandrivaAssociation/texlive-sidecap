@@ -58,6 +58,7 @@ outercaption, innercaption, leftcaption and rightcaption.
 %doc %{_texmfdistdir}/source/latex/sidecap/Makefile
 %doc %{_texmfdistdir}/source/latex/sidecap/sidecap.dtx
 %doc %{_texmfdistdir}/source/latex/sidecap/sidecap.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -68,3 +69,5 @@ outercaption, innercaption, leftcaption and rightcaption.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
