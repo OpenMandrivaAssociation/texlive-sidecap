@@ -6,7 +6,7 @@
 # catalog-version 1.6f
 Name:		texlive-sidecap
 Version:	1.6f
-Release:	1
+Release:	2
 Summary:	Typeset captions sideways
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/sidecap
