@@ -58,3 +58,17 @@ outercaption, innercaption, leftcaption and rightcaption.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.6f-2
++ Revision: 756000
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.6f-1
++ Revision: 719532
+- texlive-sidecap
+- texlive-sidecap
+- texlive-sidecap
+- texlive-sidecap
+
